@@ -7,4 +7,6 @@ tasks:
             nextflow info
             clear
     - name: Docker Image Build
-      init: docker build -t test_image .
+      init: |
+            docker build -t test_image .
+            clear
