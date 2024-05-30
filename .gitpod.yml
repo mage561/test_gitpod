@@ -6,3 +6,5 @@ tasks:
             sudo mv /workspace/test_gitpod/nextflow /usr/local/bin
             nextflow info
             clear
+    - name: Docker Image Build
+      init: docker build -t test_image .
