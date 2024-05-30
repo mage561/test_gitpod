@@ -6,4 +6,3 @@ tasks:
             sudo mv /workspace/test_gitpod/nextflow /usr/local/bin
             nextflow info
             clear
-      command: nextflow run nextflow-io/hello
