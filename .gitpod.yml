@@ -12,3 +12,7 @@ tasks:
             docker build -t test_image .
             clear
       command: exit
+    - name: Main Terminal
+      init: |
+            echo "Here are the instructions"
+            echo "But they are none for now (*＞ω＜*)♡"
