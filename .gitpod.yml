@@ -14,5 +14,6 @@ tasks:
       command: exit
     - name: Main Terminal
       init: |
+            clear
             echo "Here are the instructions"
             echo "But they are none for now (*＞ω＜*)♡"
