@@ -20,5 +20,5 @@ process sayHi {
 
 workflow{
     sayHi() | view
-    //cowSaysHi() | view
+    cowSaysHi() | view
 }
